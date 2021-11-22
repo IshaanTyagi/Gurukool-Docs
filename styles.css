@@ -594,39 +594,3 @@ body {
   font-size: 20px;
   font-weight: 800;
 }
-
-/*Future Scope CSS*/
-
-/* #future {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-  margin-left: 100px;
-  margin-right: 100px;
-  /* width: 100%; */
-}
-
-.head7 {
-  margin-left: 100px;
-  font-family: "Fredoka One", cursive;
-  font-weight: bold;
-  font-size: 50px;
-  border-bottom: 5px solid white;
-}
-
-.futureBox {
-  display: flex;
-  flex-direction: column;
-  justify-content: right;
-  align-items: flex-end;
-  margin-left: auto;
-  margin-top: 150px;
-}
-
-.box7 img {
-  width: 50%;
-  height: 100%;
-  /* margin-right: auto; */
-  margin-left: 100px;
-} */
