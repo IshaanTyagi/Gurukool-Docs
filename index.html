@@ -6,18 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gurukool</title>
     <link rel="icon" href="" type="image/x-icon" />
+    <!-- <link
+      rel="stylesheet"
+      media="screen and (max-width: 1310px)"
+      href="./responsive.css"
+    /> -->
     <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://kit.fontawesome.com/93fb34d5e1.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <!-- <div class="background">
-      <div class="wave -one"></div>
-      <div class="wave -two"></div>
-      <div class="wave -three"></div>
-    </div> -->
     <div class="head">
       <div class="title">
         <div class="theme">Theme - Eklavya</div>
-        <div class="logo"><a>Gurukool</a></div>
+        <div class="logo">
+          <a>Gurukool</a><i class="fas fa-graduation-cap"></i>
+        </div>
       </div>
       <div class="motto">Free mentorship because everyone deserves it.</div>
       <div class="img1"><img src="./img1.jpg" alt="" /></div>
@@ -87,25 +93,6 @@
         </div>
       </div>
     </section>
-    <!-- <svg
-      id="wave"
-      style="transform: rotate(180deg); transition: 0.3s"
-      viewBox="0 0 1440 490"
-      version="1.1"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <defs>
-        <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
-          <stop stop-color="rgba(243, 106, 62, 1)" offset="0%"></stop>
-          <stop stop-color="rgba(255, 179, 11, 1)" offset="100%"></stop>
-        </linearGradient>
-      </defs>
-      <path
-        style="transform: translate(0, 0px); opacity: 1"
-        fill="#315dc0"
-        d="M0,147L15,171.5C30,196,60,245,90,285.8C120,327,150,359,180,326.7C210,294,240,196,270,196C300,196,330,294,360,285.8C390,278,420,163,450,98C480,33,510,16,540,32.7C570,49,600,98,630,98C660,98,690,49,720,57.2C750,65,780,131,810,204.2C840,278,870,359,900,326.7C930,294,960,147,990,114.3C1020,82,1050,163,1080,187.8C1110,212,1140,180,1170,171.5C1200,163,1230,180,1260,187.8C1290,196,1320,196,1350,163.3C1380,131,1410,65,1440,89.8C1470,114,1500,229,1530,294C1560,359,1590,376,1620,367.5C1650,359,1680,327,1710,318.5C1740,310,1770,327,1800,294C1830,261,1860,180,1890,163.3C1920,147,1950,196,1980,204.2C2010,212,2040,180,2070,163.3C2100,147,2130,147,2145,147L2160,147L2160,490L2145,490C2130,490,2100,490,2070,490C2040,490,2010,490,1980,490C1950,490,1920,490,1890,490C1860,490,1830,490,1800,490C1770,490,1740,490,1710,490C1680,490,1650,490,1620,490C1590,490,1560,490,1530,490C1500,490,1470,490,1440,490C1410,490,1380,490,1350,490C1320,490,1290,490,1260,490C1230,490,1200,490,1170,490C1140,490,1110,490,1080,490C1050,490,1020,490,990,490C960,490,930,490,900,490C870,490,840,490,810,490C780,490,750,490,720,490C690,490,660,490,630,490C600,490,570,490,540,490C510,490,480,490,450,490C420,490,390,490,360,490C330,490,300,490,270,490C240,490,210,490,180,490C150,490,120,490,90,490C60,490,30,490,15,490L0,490Z"
-      ></path> 
-    </svg> -->
     <section id="solutions">
       <div class="boxHead1">
         <h1 class="head3">Solution to these Problems</h1>
@@ -141,56 +128,51 @@
         </div>
       </div>
     </section>
-    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path
-        fill="#315dc0"
-        fill-opacity="1"
-        d="M0,192L48,208C96,224,192,256,288,277.3C384,299,480,309,576,266.7C672,224,768,128,864,85.3C960,43,1056,53,1152,101.3C1248,149,1344,235,1392,277.3L1440,320L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
-      ></path>
-    </svg> -->
     <section id="implementation">
       <h1 class="head4">Implementation</h1>
-      <div id="box4-1">
-        <div class="box4_1">
-          <h2 class="impHead">Feed Page</h2>
-          <p>
-            Our site have the Feed section where the latest Post and information
-            about your interests are displayed.
-          </p>
+      <div class="fullBox">
+        <div id="box4-1">
+          <div class="box4_1">
+            <h2 class="impHead">Feed Page</h2>
+            <p>
+              Our site have the Feed section where the latest Post and
+              information about your interests are displayed.
+            </p>
+          </div>
+          <div class="box4_1">
+            <h2 class="impHead">Event Section</h2>
+            <p>
+              The special section where the mentors can post the new event
+              details and mentee can easily enroll into them and also has the
+              recording of previous events.
+            </p>
+          </div>
+          <div class="box4_1">
+            <h2 class="impHead">Messenger</h2>
+            <p>
+              Our main motive is to provide One on One and best mentoring to the
+              talented student, So Mentee can message to his Mentor or
+              Moderators and get the best guidance.
+            </p>
+          </div>
         </div>
-        <div class="box4_1">
-          <h2 class="impHead">Event Section</h2>
-          <p>
-            The special section where the mentors can post the new event details
-            and mentee can easily enroll into them and also has the recording of
-            previous events.
-          </p>
-        </div>
-        <div class="box4_1">
-          <h2 class="impHead">Messenger</h2>
-          <p>
-            Our main motive is to provide One on One and best mentoring to the
-            talented student, So Mentee can message to his Mentor or Moderators
-            and get the best guidance.
-          </p>
-        </div>
-      </div>
-      <div class="img05"><img src="./05.jpg" alt="" /></div>
-      <div id="box4-2">
-        <div class="box4_2">
-          <h2 class="impHead">Doubt Forum</h2>
-          <p>
-            We have a special section in our App, THE DOUBT FORUM, where mentee
-            can open any doubt regarding his stack with labels and offer some
-            points on each doubt for the mentor.
-          </p>
-        </div>
-        <div class="box4_2">
-          <h2 class="impHead">Dashboard</h2>
-          <p>
-            A mentor can post Roadmaps, Notes, Resources, Blogs for Mentee and
-            maintain a dashboard for himself.
-          </p>
+        <div class="img05"><img src="./05.jpg" alt="" /></div>
+        <div id="box4-2">
+          <div class="box4_2">
+            <h2 class="impHead">Doubt Forum</h2>
+            <p>
+              We have a special section in our App, THE DOUBT FORUM, where
+              mentee can open any doubt regarding his stack with labels and
+              offer some points on each doubt for the mentor.
+            </p>
+          </div>
+          <div class="box4_2">
+            <h2 class="impHead">Dashboard</h2>
+            <p>
+              A mentor can post Roadmaps, Notes, Resources, Blogs for Mentee and
+              maintain a dashboard for himself.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -211,7 +193,7 @@
             </p>
           </div>
           <div class="box5_1">
-            <h2 class="pointHead">Complete one tract to access another</h2>
+            <h2 class="pointHead">Complete one track to access another</h2>
             <p>
               Mentees can redeem their points back after successfully completing
               one track and use them to access another. This helps them maintain
@@ -285,34 +267,5 @@
         </div>
       </div>
     </section>
-    <!-- <section id="future">
-      <div class="boxHead4">
-        <h1 class="head7">Future Scope</h1>
-      </div>
-      <div class="futureBox">
-        <div class="box7">
-          <p>
-            Integration of Juspay API for Payments regarding the PRO Version.
-          </p>
-        </div>
-        <div class="box7">
-          <img src="/07.jpg" alt="" />
-        </div>
-        <div class="box7">
-          <div class="box7Content">
-            <p>
-              Introduction to PRO version where you can get extra points to
-              unlock multiple tracks at the same time.
-            </p>
-          </div>
-          <div class="box7Content">
-            <p>
-              A chance for Mentees and Moderators to become Mentors after
-              completing tracks and assessments.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section> -->
   </body>
 </html>
